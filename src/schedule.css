@@ -1,0 +1,35 @@
+/* 预约发布新增样式 —— 附加在原有视觉体系之上 */
+.status.open{color:#1f6b57;background:#d5ede2}
+.status.pending{color:#7a5b16;background:#f5e7c4}
+.status.closed{color:#7d8785;background:#e4e8e6}
+.status.draft{color:#94733f;background:#f3ead8}
+.empty-line{color:#98a39f;font-size:12px;padding:14px 6px}
+.session-list{display:grid;gap:10px;margin-top:10px}
+.session-row{display:flex;align-items:end;gap:9px;background:#f0f3ef;border-radius:7px;padding:11px}
+.session-row label{flex:1;font-size:11px}
+.session-no{width:22px;height:22px;border-radius:50%;background:#22363a;color:#e6b45d;font:11px 'DM Mono';display:grid;place-items:center;margin-bottom:9px}
+.session-arrow{margin-bottom:10px;color:#8a9693}
+.session-del{width:30px;height:34px;border-radius:5px;color:#b06a5f;font-size:12px}
+.session-del:hover{background:#f6e4df}
+.schedule-block{border-top:1px solid #e2e7e2;padding-top:16px}
+.schedule-hint{display:block;margin-top:6px;line-height:1.5}
+.dirty-banner{background:#fbf0dd;border:1px solid #e6cfa3;color:#7d5e22;border-radius:7px;padding:11px 13px;font-size:12px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.dirty-banner button{color:#a66d20;font-weight:600;font-size:12px;white-space:nowrap}
+.reason-field input{border-color:#ddb873}
+.feedback{display:grid;gap:8px}
+.fb-error{margin:0;background:#f9e8e4;color:#9c4636;border:1px solid #ecc4bb;border-radius:6px;padding:9px 12px;font-size:12px}
+.fb-conflict{background:#fdf3e3;color:#6f4d17;border:1px solid #e6cf9f;border-radius:6px;padding:10px 13px;font-size:12px;display:grid;gap:5px}
+.fb-conflict em{font-style:normal;font-weight:700}
+.fb-conflict small{color:#a5762b}
+.history{margin-top:34px;border-top:1px solid #dde1de;padding-top:20px}
+.version-list{display:grid;gap:10px;margin-top:12px}
+.version-card{border:1px solid #dde3df;border-radius:7px;padding:13px 15px;background:#fafbf9}
+.version-card.current{border-color:#9fc4b4;background:#f1f7f3}
+.version-head{display:flex;justify-content:space-between;align-items:baseline}
+.version-head strong{font-size:12px;color:#314844}
+.version-head small{font:10px 'DM Mono';color:#94a09c}
+.version-reason{margin:6px 0;font-size:12px;color:#687773}
+.version-sessions{margin:0;padding-left:16px;font:11px 'DM Mono';color:#5f746d;display:grid;gap:3px}
+.detail-sessions{list-style:none;padding:0;margin:14px 0;font:12px 'DM Mono';color:#4d655f}
+.visitor-empty{font-size:14px;padding:40px 0}
+.primary.full span{color:#e6b45d}
